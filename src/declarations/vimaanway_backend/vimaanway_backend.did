@@ -1,0 +1,15 @@
+service : {
+  getFlights: () -> (vec text) query;
+  printDepartDate: () -> (text) query;
+  printDestination: () -> (text) query;
+  printOrigin: () -> (text) query;
+  printReturnDate: () -> (text) query;
+  printTravellers: () -> (int) query;
+  printTripType: () -> (text) query;
+  setDepartDate: (text) -> (text);
+  setDestination: (text) -> (text);
+  setOrigin: (text) -> (text);
+  setReturnDate: (text) -> (text);
+  setTravellers: (int) -> (text);
+  setTripType: (text) -> (text);
+}
